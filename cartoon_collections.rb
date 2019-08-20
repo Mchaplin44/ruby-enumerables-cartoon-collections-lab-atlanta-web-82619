@@ -12,7 +12,7 @@ def summon_captain_planet(array)
   planeteer_calls
 end
 
-function longPlaneteerCalls(words) {
+def longPlaneteerCalls(words) {
 	for(var i = 0; i < words.length; i++) {
 		if(words[i].length > 4) {
 			return true;
