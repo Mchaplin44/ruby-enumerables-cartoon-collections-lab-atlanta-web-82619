@@ -12,13 +12,7 @@ def summon_captain_planet(array)
   planeteer_calls
 end
 
-def longPlaneteerCalls(words) {
-	for(var i = 0; i < words.length; i++) {
-		if(words[i].length > 4) {
-			return true;
-		}
-	}
-	return false;
+
 }
 def find_the_cheese(array)
   array.find do |cheese|
