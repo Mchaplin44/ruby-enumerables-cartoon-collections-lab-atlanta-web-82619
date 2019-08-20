@@ -12,10 +12,14 @@ def summon_captain_planet(array)
   planeteer_calls
 end
 
-#@def long_planeteer_calls(array)
-#  array.any? do |word|
-  #  word.length > 4
-#end
+function longPlaneteerCalls(words) {
+	for(var i = 0; i < words.length; i++) {
+		if(words[i].length > 4) {
+			return true;
+		}
+	}
+	return false;
+}
 def find_the_cheese(array)
   array.find do |cheese|
     cheese == "cheddar" || cheese == "gouda" || cheese == "camembert"
